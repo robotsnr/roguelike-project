@@ -28,13 +28,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.31": {
+    "com.unity.ide.rider@3.0.35": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Users\\Jerry\\roguelike-project\\Library\\PackageCache\\com.unity.ide.rider@7921be93db40",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
+      "resolvedPath": "C:\\Users\\Jerry\\roguelike-project\\Library\\PackageCache\\com.unity.ide.rider@7d01a2258732",
+      "fingerprint": "7d01a2258732f17d1f569657792eaba45b9633d4",
+      "editorCompatibility": "2019.4.6f1",
+      "version": "3.0.35",
       "source": "registry",
       "testable": false
     },

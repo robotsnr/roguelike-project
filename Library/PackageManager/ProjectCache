@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638798555987477122
-    m_Hash: 1440437488
+      ticks: 638798690692856601
+    m_Hash: 3200338865
   m_LockFileStatus:
     m_FilePath: C:/Users/Jerry/roguelike-project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638798556619333204
-    m_Hash: 3134255500
+      ticks: 638798690692881656
+    m_Hash: 2012564825
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -339,12 +339,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.1
     minimumUnityVersion: 
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.35
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.35
   source: 1
-  resolvedPath: C:\Users\Jerry\roguelike-project\Library\PackageCache\com.unity.ide.rider@7921be93db40
+  resolvedPath: C:\Users\Jerry\roguelike-project\Library\PackageCache\com.unity.ide.rider@7d01a2258732
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -353,7 +353,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -430,13 +430,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638779086412770000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: 52cd6800886cb6c849f5c908665829f1f8cca705
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -449,17 +449,18 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
-    that work fine in Unity when utilizing DOTS - when Player project, by generating
-    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
-    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
+  upmReserved: '{"changelog":"- fix RIDER-120306 RootNamespace is not generated for
+    a csproj without cs files\n- fix RIDER-121881 GetAllRiderPaths failed\n- fix
+    RIDER-122372 RiderPathLocator issue (found Rider installations duplicates on
+    Linux)\n- fix RIDER-122527 Open log in the Rider tab in Unity Editor doesn''t
+    work"}'
   assetStore:
     productId: 
-  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
+  fingerprint: 7d01a2258732f17d1f569657792eaba45b9633d4
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
-    minimumUnityVersion: 2019.2.6f1
+    minimumUnityVersion: 2019.4.6f1
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1

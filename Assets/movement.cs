@@ -11,7 +11,7 @@ public class Example : MonoBehaviour
         //Fetch the Rigidbody component you attach from your GameObject
         body = GetComponent<Rigidbody2D>();
         //Set the speed of the GameObject
-        speed = 10.0f;
+        speed = 10.0f; 
     }
 
     void Update()
