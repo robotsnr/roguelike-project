@@ -35,6 +35,5 @@ public class swordMovement : MonoBehaviour
         // Align the sword's rotation with the player's direction
         transform.rotation = Quaternion.Euler(0, 0, instance.playerDirection);
 
-        Debug.Log("Sword Position: " + transform.position);
     }
 }
